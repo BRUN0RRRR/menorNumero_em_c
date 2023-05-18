@@ -1,0 +1,26 @@
+# menorNumero_em_c
+programa faculdade
+
+#include<stdio.h>
+
+void main(){
+int valor1,valor2,valor3;
+
+printf("Entre com o Primeiro valor: ");
+scanf("%d", &valor1);
+printf("Entre com o segundo valor: ");
+scanf("%d", &valor2);
+printf("Entre com o terceiro valor: ");
+scanf("%d", &valor3);
+
+if(valor1 == valor2 && valor2 == valor3){
+printf("Valores iguais!!!\n");
+}else if(valor1 < valor2){
+printf(" \nMenor valor e : %d",valor1);
+}else if(valor2 < valor3){
+printf("\nMenor valor e : %d",valor2);
+}else{
+printf("\nMenor valor e : %d",valor3);
+}
+
+}
